@@ -73,3 +73,11 @@ System.out.println(bigNumber.floatValue());//BigIntger -> float
 System.out.println(bigNumber.doubleValue());//BigIntger -> double
 System.out.println(bigNumber.toString());//BigIntger -> String
 ```
+<br>
+
+### 2024-10-27
+시간 관련
+```
+// a는 시간, b는 분, c는 소요 예정 시간일 때
+(a + (b + c) / 60) % 24 + " " + (b + c) % 60
+```
