@@ -85,9 +85,10 @@ System.out.println(bigNumber.toString());//BigIntger -> String
 <br>
 
 ### 2024-10-28
-효율적인 콘솔 출력 방
+효율적인 콘솔 출력 방법
 ```
 // StringBuilder를 사용해 출력을 모아두고 마지막에 한 번에 출력하는 방법
+StringBuilder sb = new StringBuilder(); // 출력 모으기
 sb.append(a + b).append("\n"); // 결과를 StringBuilder에 추가
 System.out.print(sb.toString()); // 한 번에 출력
 ```
