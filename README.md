@@ -81,3 +81,13 @@ System.out.println(bigNumber.toString());//BigIntger -> String
 // a는 시간, b는 분, c는 소요 예정 시간일 때
 (a + (b + c) / 60) % 24 + " " + (b + c) % 60
 ```
+
+<br>
+
+### 2024-10-28
+효율적인 콘솔 출력 방
+```
+// StringBuilder를 사용해 출력을 모아두고 마지막에 한 번에 출력하는 방법
+sb.append(a + b).append("\n"); // 결과를 StringBuilder에 추가
+System.out.print(sb.toString()); // 한 번에 출력
+```
